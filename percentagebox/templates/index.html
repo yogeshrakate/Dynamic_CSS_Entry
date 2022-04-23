@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        p{
+            background-color: rgb(140, 132, 166);
+            /* width: 200px; */
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p style="width:{{px_size}}px">I need to set this box's width as {{px_size}} px, dynamically</p>
+    Here in body of html we can take px size from views as context. 
+    <br>
+    But I want to use this px_size to be the px size of width in css.
+    <br>
+    I have mentioned statically in style tag width as 400px.
+    <br>
+    How can I take it dynamically from the context?
+</body>
+</html>
