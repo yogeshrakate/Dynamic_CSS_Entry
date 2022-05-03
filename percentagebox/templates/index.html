@@ -9,13 +9,13 @@
         
         p{
             background-color: rgb(140, 132, 166);
-            /* width: 200px; */
+            width: {{px_size.1}}px;
             font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <p style="width:{{px_size}}px">I need to set this box's width as {{px_size}} px, dynamically</p>
+    <p>I need to set this box's width as {{px_size.1}} px, dynamically</p>
     Here in body of html we can take px size from views as context. 
     <br>
     But I want to use this px_size to be the px size of width in css.
